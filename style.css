@@ -137,12 +137,16 @@ nav .fa {
     padding-top: 100px;
 }
 
-.course h1 {
+.course h1,
+.campus h1,
+.facilities h1 {
     font-size: 36px;
     font-weight: 600;
 }
 
-.course p {
+.course p,
+.campus p,
+.facilities p {
     color: #777;
     font-size: 14px;
     font-weight: 300;
@@ -234,4 +238,34 @@ nav .fa {
 .layer:hover h3 {
     bottom: 49%;
     opacity: 1;
+}
+
+/* Facilities section */
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities-col p {
+    padding: 0;
+}
+
+.facilities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
