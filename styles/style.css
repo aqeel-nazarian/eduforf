@@ -99,6 +99,17 @@ nav img {
     transition: 1s;
 }
 
+.red-btn {
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+    transition: 0.5s
+}
+
+.red-btn:hover {
+    color: #fff;
+}
+
 nav .fa {
     display: none;
 }
